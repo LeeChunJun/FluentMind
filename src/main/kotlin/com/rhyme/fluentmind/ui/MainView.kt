@@ -5,9 +5,9 @@ import androidx.compose.foundation.text.selection.DisableSelection
 import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
-import com.rhyme.fluentmind.ui.control.ControlsView
-import com.rhyme.fluentmind.ui.log.LogView
-import com.rhyme.fluentmind.ui.source.SourceView
+import com.rhyme.fluentmind.ui.control.Controls
+import com.rhyme.fluentmind.ui.log.Logs
+import com.rhyme.fluentmind.ui.source.Sources
 
 /**
  * 程序主视图
@@ -19,19 +19,17 @@ import com.rhyme.fluentmind.ui.source.SourceView
 fun MainView() {
 
     val fluentMind = remember {
-        /*操作部分视图*/
-        val controlView = ControlsView()
+        /*操作部分*/
+        val controls = Controls()
 
-        /*源码部分视图*/
-        val sourceView = SourceView()
+        /*源码部分*/
+        val sources = Sources()
 
-        /*日志记录部分视图*/
-        val logView = LogView()
+        /*日志记录部分*/
+        val logs = Logs()
 
         FluentMind(
-            controlView = controlView,
-            sourceView = sourceView,
-            logView = logView
+            controls = controls, sources = sources, logs = logs
         )
     }
 
