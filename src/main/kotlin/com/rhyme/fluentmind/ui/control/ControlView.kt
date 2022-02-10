@@ -9,5 +9,5 @@ import androidx.compose.runtime.Composable
  * @since 2021/12/12 22:29
  */
 @Composable
-fun ControlsView(model: Controls) {
+fun ControlView(model: Controls) {
 }
