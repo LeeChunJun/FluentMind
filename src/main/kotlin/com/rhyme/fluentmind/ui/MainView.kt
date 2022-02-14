@@ -1,10 +1,11 @@
 package com.rhyme.fluentmind.ui
 
-import androidx.compose.desktop.DesktopMaterialTheme
 import androidx.compose.foundation.text.selection.DisableSelection
+import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
+import com.rhyme.fluentmind.ui.common.AppTheme
 import com.rhyme.fluentmind.ui.control.Controls
 import com.rhyme.fluentmind.ui.log.Logs
 import com.rhyme.fluentmind.ui.source.Sources
@@ -34,7 +35,9 @@ fun MainView() {
     }
 
     DisableSelection {
-        DesktopMaterialTheme {
+        MaterialTheme(
+            colors = AppTheme.colors.material
+        ) {
             Surface {
                 FluentMindView(fluentMind)
             }
