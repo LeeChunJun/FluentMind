@@ -7,8 +7,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.coerceIn
 import androidx.compose.ui.unit.dp
 import com.rhyme.fluentmind.mainViewSize
-import com.rhyme.fluentmind.util.SplitterState
-import com.rhyme.fluentmind.util.VerticalSplittable
+import com.rhyme.fluentmind.ui.common.VerticalSplittable
+import com.rhyme.fluentmind.ui.common.SplitterState
 
 /**
  * 程序界面
