@@ -1,4 +1,4 @@
-package com.rhyme.fluentmind.ui.platform
+package com.rhyme.fluentmind.platform
 
 import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier

@@ -1,4 +1,4 @@
-package com.rhyme.fluentmind.util
+package com.rhyme.fluentmind.ui.common
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.Orientation
@@ -19,7 +19,7 @@ import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.rhyme.fluentmind.ui.common.AppTheme
-import com.rhyme.fluentmind.ui.platform.cursorForHorizontalResize
+import com.rhyme.fluentmind.platform.cursorForHorizontalResize
 
 @Composable
 fun VerticalSplittable(
