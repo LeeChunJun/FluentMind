@@ -9,5 +9,5 @@ import androidx.compose.runtime.Composable
  * @since 2022/2/23 16:16
  */
 @Composable
-fun HorizontalSplittable {
+fun HorizontalSplittable() {
 }

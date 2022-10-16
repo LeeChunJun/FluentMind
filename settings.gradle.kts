@@ -7,4 +7,5 @@ pluginManagement {
     
 }
 rootProject.name = "FluentMind"
-
+include(":app")
+include(":learn-coroutine")
