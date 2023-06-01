@@ -16,6 +16,7 @@ import com.rhyme.fluentmind.ui.source.SourceEmptyView
  *
  * @author 李春俊-Rhyme
  * @since 2021/12/12 22:43
+ * @version 1.0
  */
 @Composable
 fun FluentMindView(model: FluentMind) {
@@ -27,7 +28,7 @@ fun FluentMindView(model: FluentMind) {
     panelState.expandedSize = expandedSizeMin
 
     Column {
-        /*操作面板及源代码面板*/
+        /*导航区面板及源码区面板*/
         VerticalSplittable(
             Modifier.fillMaxWidth().weight(1f),
             panelState.splitter,
@@ -37,7 +38,7 @@ fun FluentMindView(model: FluentMind) {
             }
         ) {
             Column(modifier = Modifier.width(panelState.expandedSize).fillMaxHeight()) {
-                Text("control panel")
+                Text("navigation panel")
             }
             Box {
                 if (model.sources.active != null) {
@@ -47,9 +48,9 @@ fun FluentMindView(model: FluentMind) {
                 }
             }
         }
-        /*日志记录面板*/
+        /*操作区面板*/
         Box {
-            Text("log panel")
+            Text("operate panel")
         }
     }
 }

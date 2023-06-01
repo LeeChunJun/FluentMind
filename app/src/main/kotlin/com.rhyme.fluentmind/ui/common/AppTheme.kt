@@ -10,6 +10,7 @@ import androidx.compose.ui.text.SpanStyle
  *
  * @author 李春俊-Rhyme
  * @since 2022/2/12 15:30
+ * @version 1.0
  */
 object AppTheme {
 

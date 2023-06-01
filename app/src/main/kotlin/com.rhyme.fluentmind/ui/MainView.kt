@@ -6,8 +6,8 @@ import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import com.rhyme.fluentmind.ui.common.AppTheme
-import com.rhyme.fluentmind.ui.control.Controls
-import com.rhyme.fluentmind.ui.log.Logs
+import com.rhyme.fluentmind.ui.navigation.Navigations
+import com.rhyme.fluentmind.ui.operation.Operations
 import com.rhyme.fluentmind.ui.source.Sources
 
 /**
@@ -15,22 +15,23 @@ import com.rhyme.fluentmind.ui.source.Sources
  *
  * @author 李春俊-Rhyme
  * @since 2021/12/12 22:29
+ * @version 1.0
  */
 @Composable
 fun MainView() {
 
     val fluentMind = remember {
-        /*操作部分*/
-        val controls = Controls()
+        /*导航区部分*/
+        val navigations = Navigations()
 
-        /*源码部分*/
+        /*源码区部分*/
         val sources = Sources()
 
-        /*日志记录部分*/
-        val logs = Logs()
+        /*操控区部分*/
+        val operations = Operations()
 
         FluentMind(
-            controls = controls, sources = sources, logs = logs
+            navigations = navigations, sources = sources, operations = operations
         )
     }
 

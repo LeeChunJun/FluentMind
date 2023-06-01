@@ -8,10 +8,11 @@ import com.rhyme.fluentmind.ui.common.EmptyTextLines
 import kotlinx.coroutines.CoroutineScope
 
 /**
- * 单个展示的源代码文件
+ * 单个展示的源码文件
  *
  * @author 李春俊-Rhyme
  * @since 2022/2/22 10:48
+ * @version 1.0
  */
 class Source(
     val fileName: String,

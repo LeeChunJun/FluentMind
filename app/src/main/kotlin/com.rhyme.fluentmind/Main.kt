@@ -20,6 +20,7 @@ import com.rhyme.fluentmind.ui.MainView
  *
  * @author 李春俊-Rhyme
  * @since 2021/12/12 22:29
+ * @version 1.0
  */
 @Composable
 @Preview

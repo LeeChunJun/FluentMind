@@ -7,6 +7,7 @@ import androidx.compose.runtime.Composable
  *
  * @author 李春俊-Rhyme
  * @since 2022/2/23 16:16
+ * @version 1.0
  */
 @Composable
 fun HorizontalSplittable() {

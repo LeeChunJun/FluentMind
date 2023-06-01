@@ -5,6 +5,7 @@ package com.rhyme.fluentmind.ui.common
  *
  * @author 李春俊-Rhyme
  * @since 2022/2/22 14:04
+ * @version 1.0
  */
 interface TextLines {
     val size: Int

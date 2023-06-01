@@ -18,10 +18,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 /**
- * 源代码页空白占位显示界面
+ * 源码页空白占位显示界面
  *
  * @author 李春俊-Rhyme
  * @since 2022/2/23 15:21
+ * @version 1.0
  */
 @Composable
 fun SourceEmptyView() = Box(Modifier.fillMaxSize()) {

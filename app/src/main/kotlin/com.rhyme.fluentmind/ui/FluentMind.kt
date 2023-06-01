@@ -1,7 +1,7 @@
 package com.rhyme.fluentmind.ui
 
-import com.rhyme.fluentmind.ui.control.Controls
-import com.rhyme.fluentmind.ui.log.Logs
+import com.rhyme.fluentmind.ui.navigation.Navigations
+import com.rhyme.fluentmind.ui.operation.Operations
 import com.rhyme.fluentmind.ui.source.Sources
 
 /**
@@ -9,7 +9,8 @@ import com.rhyme.fluentmind.ui.source.Sources
  *
  * @author 李春俊-Rhyme
  * @since 2021/12/12 22:41
+ * @version 1.0
  */
 class FluentMind(
-    val controls: Controls, val sources: Sources, val logs: Logs
+    val navigations: Navigations, val sources: Sources, val operations: Operations
 )

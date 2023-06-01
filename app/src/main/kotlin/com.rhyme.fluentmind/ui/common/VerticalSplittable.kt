@@ -18,11 +18,14 @@ import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.rhyme.fluentmind.ui.common.AppTheme
 import com.rhyme.fluentmind.platform.cursorForHorizontalResize
 
 /**
  * 垂直方向分割布局
+ *
+ * @author 李春俊-Rhyme
+ * @since 20223/6/1 23:04
+ * @version 1.0
  */
 @Composable
 fun VerticalSplittable(
